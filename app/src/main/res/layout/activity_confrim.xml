@@ -1,10 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
     <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_verification_title"
+        android:textColor="@color/title_color"
+        android:layout_marginTop="@dimen/confrim_margin_top"
+        android:layout_marginLeft="@dimen/confrim_margin_left"
+        android:text="哈哈"
+        />
+    <TextView
+        android:id="@+id/tv_item_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="看啥看"
+        android:layout_marginTop="@dimen/confrim_margin_top"
+        android:layout_marginLeft="@dimen/confrim_margin_left"
+        android:textSize="@dimen/confrim_price"
+        android:textColor="@color/verification_input_error_title"
+        android:layout_below="@id/tv_item_name"
+        android:text="@string/confrim_price"
         />
-</LinearLayout>
+    <ImageView
+        android:id="@+id/iv_item_state"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@mipmap/yes"
+        android:layout_below="@id/tv_item_price"
+        android:layout_marginTop="@dimen/confrim_margin_top_price"
+        android:layout_marginLeft="@dimen/confrim_margin_left"
+        />
+    <TextView
+        android:id="@+id/tv_item_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_item_state"
+        android:layout_below="@id/tv_item_price"
+        android:layout_marginTop="22dp"
+        android:textSize="@dimen/activity_verification_title"
+        android:textColor="@color/title_color"
+        android:layout_marginLeft="6dp"
+        android:text="@string/confrim_state"
+        />
+    
+    <TextView
+        android:id="@+id/tv_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/confrim_button_hight"
+        android:layout_below="@id/tv_item_state"
+        android:layout_marginTop="@dimen/confrim_button_top"
+        android:background="@drawable/confrim_confrim_button"
+        android:layout_marginLeft="@dimen/confrim_margin_left"
+        android:layout_marginRight="@dimen/confrim_margin_left"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/activity_verification_title"
+        android:textColor="@color/title_color"
+        android:gravity="center"
+        android:clickable="true"
+        android:text="消费了"
+        />
+
+</RelativeLayout>
