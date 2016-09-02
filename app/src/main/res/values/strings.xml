@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HimePhoneForBusiness</string>
+    <string name="verification_title">请输入验证码</string>
+</resources>
