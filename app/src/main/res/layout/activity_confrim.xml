@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/iv_item_state"
         android:layout_below="@id/tv_item_price"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="21dp"
         android:textSize="@dimen/activity_verification_title"
         android:textColor="@color/title_color"
         android:layout_marginLeft="6dp"

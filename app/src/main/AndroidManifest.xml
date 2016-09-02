@@ -16,7 +16,7 @@
         <activity android:name=".module.demo.view.DemoActivity">
 
         </activity>
-        <activity android:name=".module.verification.view.ConfrimActivity">
+        <activity android:name=".module.me.view.ChangePasswordActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

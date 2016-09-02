@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/changepwd_head"
+        android:background="@mipmap/head_imag"
+        />
+    <EditText
+        android:id="@+id/edit_pwd_one"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/changepwd_new"
+        android:layout_marginLeft="@dimen/activity_verification_edittext_margin_left_right"
+        android:layout_marginRight="@dimen/activity_verification_edittext_margin_left_right"
+        android:background="@null"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:hint="@string/newpwd"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_marginRight="@dimen/activity_verification_edittext_margin_left_right"
+        android:layout_marginLeft="@dimen/activity_verification_edittext_margin_left_right"
+        />
+    <EditText
+        android:id="@+id/edit_pwd_two"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/changepwd_new"
+        android:layout_marginLeft="@dimen/activity_verification_edittext_margin_left_right"
+        android:layout_marginRight="@dimen/activity_verification_edittext_margin_left_right"
+        android:background="@null"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        android:hint="@string/new_pwd_agin"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_marginRight="@dimen/activity_verification_edittext_margin_left_right"
+        android:layout_marginLeft="@dimen/activity_verification_edittext_margin_left_right"
+        />
+        <TextView
+            android:id="@+id/tv_confrim"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/confrim_button_hight"
+            android:layout_marginLeft="@dimen/activity_verification_edittext_margin_left_right"
+            android:layout_marginRight="@dimen/activity_verification_edittext_margin_left_right"
+            android:background="@drawable/confrim_confrim_button"
+            android:layout_marginTop="36dp"
+            android:textSize="@dimen/activity_verification_title"
+            android:textColor="@color/title_color"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/confrim"
+            />
+
+</LinearLayout>

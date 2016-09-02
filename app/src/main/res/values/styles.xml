@@ -55,4 +55,33 @@
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="my_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/my_list_item</item>
+        <item name="android:background">@drawable/board_normal_press</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="my_list_xian">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/lightgray</item>
+        <item name="android:layout_marginLeft">@dimen/activity_verification_edittext_margin_left_right</item>
+    </style>
+    <style name="my_list_item_image">
+        <item name="android:layout_width">@dimen/my_head_shop_name_title</item>
+        <item name="android:layout_height">@dimen/my_head_shop_name_title</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/activity_verification_edittext_margin_left_right</item>
+    </style>
+    <style name="my_list_item_txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/activity_verification_edittext_margin_left_right</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">@dimen/activity_verification_title</item>
+    </style>
+
 </resources>

@@ -13,12 +13,18 @@
     <dimen name="confrim_button_hight">52dp</dimen>
     <dimen name="confrim_button_top">140dp</dimen>
 
+<!--my-->
+    <dimen name="my_head">141dp</dimen>
+    <dimen name="my_head_shop_name_title">21dp</dimen>
+    <dimen name="my_list_item">68dp</dimen>
+    <dimen name="changepwd_head">225dp</dimen>
+    <dimen name="changepwd_new">51dp</dimen>
 
 
 
 
     <dimen name="activity_verification_input_error_title_size">12sp</dimen>
     <dimen name="confrim_price">13sp</dimen>
-    <dimen name="activity_verification_title">16sp</dimen>
+    <dimen name="activity_verification_title">15sp</dimen>
 
 </resources>

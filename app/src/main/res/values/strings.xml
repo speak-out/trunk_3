@@ -3,4 +3,13 @@
     <string name="verification_title">请输入验证码</string>
     <string name="confrim_state">当前状态：%1$s</string>
     <string name="confrim_price">¥ &#160;</string>
+    <!--my-->
+    <string name="mybank">我的银行账户</string>
+    <string name="callme">联系客服</string>
+    <string name="sesugesion">意见反馈</string>
+    <string name="changepsd">修改密码</string>
+    <string name="signout">退出登录</string>
+    <string name="newpwd">请设置6-16位长度新密码</string>
+    <string name="new_pwd_agin">请再次确认新密码</string>
+    <string name="confrim">确定</string>
 </resources>
